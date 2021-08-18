@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pcepito?currentSchema=public
+    username: postgr
+    password: asdlol123
+#    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: update
